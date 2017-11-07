@@ -9,7 +9,7 @@
       <div class="content" v-html="newsinfo.content" style="width:100%"></div>
 
       <!-- 评论子组件 -->
-      <comment-box></comment-box>
+      <comment-box :id='$route.params.id'></comment-box>
   </div>
 </template>
 
